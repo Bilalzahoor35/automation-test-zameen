@@ -5,7 +5,7 @@
 * Chrome
 
 ## Setup
-1. Clone project using ```git clone https://github.com/Bilalzahoor35/zameen-ui-auto.git```
+1. Clone project using ```git clone https://github.com/Bilalzahoor35/automation-test-zameen.git```
 2. cd to project directory.
 3. Run following command to install dependencies ```pip install -r requirements.txt```
 4. Run test using following command ```python index.py```
