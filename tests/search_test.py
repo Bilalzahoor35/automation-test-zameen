@@ -49,6 +49,7 @@ def initial_search_criteria_test(driver):
 def run_search_criteria_test(driver):
     try:
         landing_page_searching_param(driver)
+        initial_search_criteria_test(driver)
         return True
     except:
         return False
