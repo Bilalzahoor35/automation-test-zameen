@@ -1,4 +1,5 @@
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -13,3 +14,8 @@ def move_to(driver, xpath):
     element_to_hover_over = driver.find_element_by_xpath(xpath)
     hover = ActionChains(driver).move_to_element(element_to_hover_over)
     hover.perform()
+
+
+def click(btn, times=1):
+    for i in range(times):
+        btn.send_keys(Keys.RETURN)

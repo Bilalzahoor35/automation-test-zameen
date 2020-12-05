@@ -2,8 +2,8 @@ import time
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from .common import wait_until_located, move_to
-from .search_test import landing_page_searching_param
+from pages.common import wait_until_located, move_to
+from .test_search import landing_page_searching_param
 
 
 def filter_search_criteria_test(driver, prev_success):

@@ -2,8 +2,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 import time
 
-from .common import wait_until_located
-from .search_test import run_search_criteria_test
+from pages.common import wait_until_located
+from .test_search import run_search_criteria_test
 
 
 def run_location_test(driver):
